@@ -1,13 +1,13 @@
 -- Создаём таблицы Продуктов, Категорий и связи между продуктами и категориями
 create table #Products
 (
-	ID		int  not null primary key identity,
+	ID	int  not null primary key identity,
 	Name	varchar(30) not null unique
 )
 
 create table #Categories
 (
-	ID		int not null primary key identity,
+	ID	int not null primary key identity,
 	Name	varchar(30) not null unique
 )
 
